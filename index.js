@@ -126,7 +126,7 @@ function init() {
       },
     ])
     .then((data) => {
-      writeToFile("GREADME.md", data);
+      writeToFile("GENERATEDREADME.md", data);
     });
 }
 
